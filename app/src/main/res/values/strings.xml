@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">PracaInz2</string>
+    <string name="jaslospis">Jadłospis</string>
+    <string name="lodowka">Lodówka</string>
+    <string name="przepisy">Przepisy</string>
+    <string name="trening">Trening</string>
+    <string name="menu">Menu</string>
+
 </resources>
