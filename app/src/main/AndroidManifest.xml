@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PracaInz2">
         <activity
+            android:name=".traning"
+            android:exported="false" />
+        <activity
             android:name=".recipe"
             android:exported="false" />
         <activity

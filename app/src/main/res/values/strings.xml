@@ -15,6 +15,9 @@
     <string name="proponowane">Proponowane</string>
     <string name="ulubione">Ulubione</string>
     <string name="dodajnowe">Dodaj Nowe</string>
+    <string name="poczatkujacy">Początkujący</string>
+    <string name="sredniozaaw">Średnio zaaw</string>
+    <string name="zaawansowany">Zaawansowany</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
     <string name="second_fragment_label">Second Fragment</string>

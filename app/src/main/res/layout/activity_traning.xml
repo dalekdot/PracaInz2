@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".recipe">
+    tools:context=".traning">
 
     <TextView
         android:id="@+id/textView2"
@@ -96,7 +96,7 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/przepisy"
+        android:text="@string/trening"
         android:textColor="@color/white"
         android:textSize="40sp"
         app:layout_constraintBottom_toBottomOf="@+id/textView2"
@@ -109,7 +109,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="@string/proponowane"
+        android:text="@string/poczatkujacy"
         android:textColor="@color/black"
         android:textSize="15sp"
         app:layout_constraintEnd_toStartOf="@+id/textView4"
@@ -123,7 +123,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="140dp"
         android:layout_marginTop="8dp"
-        android:text="@string/ulubione"
+        android:text="@string/sredniozaaw"
         android:textColor="@color/black"
         android:textSize="15sp"
         app:layout_constraintEnd_toStartOf="@+id/textView5"
@@ -137,7 +137,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="-200dp"
-        android:text="@string/dodajnowe"
+        android:text="@string/zaawansowany"
         android:textColor="@color/black"
         android:textSize="15sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -146,25 +146,23 @@
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/imageView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4"
-        app:srcCompat="@drawable/butterchicken" />
+        app:srcCompat="@drawable/klatka" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/imageView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toTopOf="@+id/textView12"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.472"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2"
-        app:srcCompat="@drawable/owsianka"
-        android:contentDescription="TODO" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:srcCompat="@drawable/brzuch" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
