@@ -11,7 +11,10 @@
     <string name="przekaska">Przekąska</string>
     <string name="woda">Woda</string>
     <string name="kolacja">Kolacja</string>
-    <string name="title_activity_recipe">recipe</string>
+    <string name="twojalodowka">Twoja Lodówka</string>
+    <string name="proponowane">Proponowane</string>
+    <string name="ulubione">Ulubione</string>
+    <string name="dodajnowe">Dodaj Nowe</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
     <string name="second_fragment_label">Second Fragment</string>
